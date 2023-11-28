@@ -40,21 +40,21 @@ export const AddProduct = () => {
     };
     return (
         <React.Fragment>
-            <div className="container">
-                <div className="row">
-                    <div className="col-md-8 mt-4">
-                        <h5 className="mb-4">Add Product </h5>
-                        <p className="text-warning">{message}</p>
+            <div className="">
+                <div className="">
+                    <div className="">
+                        <h5 className="text-2xl">Add Product </h5>
+                        <p className="">{message}</p>
 
                         <form onSubmit={handleSubmit}>
-                            <div className="mb-3 row">
-                                <label className="col-sm-3">
+                            <div className="">
+                                <label className="">
                                     Product Title{" "}
                                 </label>
-                                <div className="col-sm-9">
+                                <div className="">
                                     <input
                                         type="text"
-                                        className="form-control"
+                                        className=""
                                         onChange={(e) =>
                                             setPtitle(e.target.value)
                                         }
@@ -62,14 +62,14 @@ export const AddProduct = () => {
                                 </div>
                             </div>
 
-                            <div className="mb-3 row">
-                                <label className="col-sm-3">
+                            <div className="">
+                                <label className="">
                                     Product Price{" "}
                                 </label>
-                                <div className="col-sm-9">
+                                <div className="">
                                     <input
                                         type="text"
-                                        className="form-control"
+                                        className=""
                                         onChange={(e) =>
                                             setPprice(e.target.value)
                                         }
@@ -77,14 +77,14 @@ export const AddProduct = () => {
                                 </div>
                             </div>
 
-                            <div className="mb-3 row">
-                                <label className="col-sm-3">
+                            <div className="">
+                                <label className="">
                                     Product Image
                                 </label>
-                                <div className="col-sm-9">
+                                <div className="">
                                     <input
                                         type="file"
-                                        className="form-control"
+                                        className=""
                                         onChange={(e) =>
                                             setPfile(e.target.files[0])
                                         }
@@ -92,12 +92,12 @@ export const AddProduct = () => {
                                 </div>
                             </div>
 
-                            <div className="mb-3 row">
-                                <label className="col-sm-3"></label>
-                                <div className="col-sm-9">
+                            <div className="">
+                                <label className=""></label>
+                                <div className="">
                                     <button
                                         type="submit"
-                                        className="btn btn-success"
+                                        className=""
                                     >
                                         Submit
                                     </button>

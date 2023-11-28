@@ -57,7 +57,7 @@ export const EditUser = () => {
             <div>
                 <div>
                     <div>
-                        <h5>AddUser</h5>
+                        <h5 className="text-2xl">AddUser</h5>
                         {/* <p>{message}</p> */}
                         {/* <p> {console.log(message)} </p> */}
                         <form onSubmit={handleSubmit}>
