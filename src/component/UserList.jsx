@@ -4,7 +4,8 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 export const UserList = () => {
-    const baseUrl = "http://localhost/00_GS/01_assignment/11_php_championship";
+    // const baseUrl = "http://localhost/00_GS/01_assignment/11_php_championship";
+    const baseUrl ='https://kkgsacademy.sakura.ne.jp/gs09_update_delete/'
 
     const [userData, setUserData] = useState([]);
     const [message, setMessage] = useState("");

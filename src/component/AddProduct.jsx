@@ -3,7 +3,8 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 export const AddProduct = () => {
-    const baseUrl = "http://localhost/00_GS/01_assignment/11_php_championship";
+    // const baseUrl = "http://localhost/00_GS/01_assignment/11_php_championship";
+    const baseUrl ='https://kkgsacademy.sakura.ne.jp/gs09_update_delete/'
 
     const navigate = useNavigate();
     const [ptitle, setPtitle] = useState("");
